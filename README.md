@@ -4,9 +4,8 @@
 
 ### Aufgabe ###
 
-Es sollen vorgegebene  [**Daten**](https://drive.google.com/file/d/1sTO90PQRtbK80XdzMJ2KttRRtt9M7xuq/view) einer Clusteranalyse unterzogen werden. Hierfür wird in einem ersten Schritt (Teilaufgabe A) ein geeignetes K-means bestimmt, in einem zweiten Schritt (Teilaufgabe B) der Clustervektor erstellt.
+Es sollen vorgegebene  [**Daten**](https://github.com/ChristianKitte/HelloClustering/blob/main/edlich-kmeans-A0.csv) einer Clusteranalyse unterzogen werden. Als Ziel soll eine sinnvolle Anzahl Cluster (k) ermittelt werden, sowie der daraus resultierende Clustervektor erstellt werden.
 
-### Teilaufgabe A ###
+Die Löung mit einer ausführlichen Erklärung befindet sich in dem hier vorliegenden [**Notebook**](https://github.com/ChristianKitte/HelloClustering/blob/main/Clustering.ipynb). Es gliedert sich in der Datenbaschaffung, dem Anlegen einiger Methoden sowie darauf basierend der Bestimmung von k mithilfe des "Ellenbogen Effektes". 
 
-
-### Teilaufgabe B ###
+Als Maß wird hier die auftretende Differenz der Distanzen zu dem vorhergehenden k verwendet. Ist diese sehr klein, so ist eine weitere Clusterung eher weniger sinnvoll. Letztlich kommt es natürlich auch immer auf den Kontext der Daten an.
